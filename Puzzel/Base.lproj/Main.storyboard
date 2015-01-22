@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Puzzel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_01.gif" translatesAutoresizingMaskIntoConstraints="NO" id="eCz-2O-V5Q">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_02.gif" translatesAutoresizingMaskIntoConstraints="NO" id="cs8-il-Ss2">
+                                <rect key="frame" x="106" y="0.0" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_03.gif" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-XK-jUd">
+                                <rect key="frame" x="212" y="0.0" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_05.gif" translatesAutoresizingMaskIntoConstraints="NO" id="G57-VP-Iz2">
+                                <rect key="frame" x="0.0" y="106" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_06.gif" translatesAutoresizingMaskIntoConstraints="NO" id="0B6-Vv-9x6">
+                                <rect key="frame" x="106" y="106" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="katrina-kaif-1_07.gif" translatesAutoresizingMaskIntoConstraints="NO" id="mlh-e4-7r3">
+                                <rect key="frame" x="212" y="106" width="106" height="106"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KeK-F7-yeG">
+                                <rect key="frame" x="107" y="0.0" width="106" height="168"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QNH-Jh-Q7M">
+                                <rect key="frame" x="214" y="0.0" width="106" height="168"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ife-4W-jra">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="189"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Car.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oFH-nb-CKb">
+                                <rect key="frame" x="0.0" y="426" width="320" height="142"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oA3-sl-uaS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oHB-Xy-knp">
+                                <rect key="frame" x="-259" y="320" width="641" height="248"/>
+                                <color key="backgroundColor" red="1" green="0.9595350822641483" blue="0.062285667468890971" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eCz-2O-V5Q"/>
+                                <exclude reference="cs8-il-Ss2"/>
+                                <exclude reference="aXw-XK-jUd"/>
+                                <exclude reference="G57-VP-Iz2"/>
+                                <exclude reference="0B6-Vv-9x6"/>
+                                <exclude reference="mlh-e4-7r3"/>
+                                <exclude reference="KeK-F7-yeG"/>
+                                <exclude reference="QNH-Jh-Q7M"/>
+                                <exclude reference="ife-4W-jra"/>
+                                <exclude reference="oFH-nb-CKb"/>
+                                <exclude reference="oA3-sl-uaS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="401" y="156"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Car.jpg" width="2048" height="2048"/>
+        <image name="Sm.jpg" width="1024" height="768"/>
+        <image name="katrina-kaif-1_01.gif" width="106" height="189"/>
+        <image name="katrina-kaif-1_02.gif" width="106" height="189"/>
+        <image name="katrina-kaif-1_03.gif" width="107" height="189"/>
+        <image name="katrina-kaif-1_05.gif" width="106" height="190"/>
+        <image name="katrina-kaif-1_06.gif" width="106" height="190"/>
+        <image name="katrina-kaif-1_07.gif" width="107" height="190"/>
+    </resources>
+</document>
